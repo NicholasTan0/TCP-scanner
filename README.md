@@ -1,4 +1,4 @@
-# tcpscan: TCP Port Scanner & Service Fingerprinter
+# TCP Port Scanner & Service Fingerprinter
 
 tcpscan.py is a network security tool developed in Python using Scapy and native sockets. It performs an efficient stealth TCP SYN scan against a target host and applies best-effort banner-grabbing and active probing heuristics to accurately fingerprint the underlying services irrespective of their port configurations.
 
