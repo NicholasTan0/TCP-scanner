@@ -73,3 +73,15 @@ sudo python3 tcpscan.py 192.168.0.123
 sudo python3 tcpscan.py -p 80-9000 8.8.8.8
 
 ```
+
+### Example Output:
+
+```
+Host: 192.168.0.123:25
+Type: (1) TCP server-initiated
+Response: 220 smtp.gmail.com ESMTP
+
+Host: 8.8.8.8:853
+Type: (6) Generic TLS server | CN dns.google
+Response: none
+```
